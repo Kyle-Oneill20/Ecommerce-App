@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import commerce from "../lib/commerce";
+import commerce from "./lib/commerce";
 
 const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
 
@@ -26,7 +26,7 @@ const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
                 <div className="cart-item_details-price">{item.line_total.formatted_with_symbol}</div>
             </div>
             <button 
-            type="buttom" 
+            type="button" 
             className="cart-item_remove"
             onClick={handleRemoveFromCart}
             >

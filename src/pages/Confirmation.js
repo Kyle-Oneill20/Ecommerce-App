@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-import commerce from '../lib/commerce';
+import commerce from '../Components/lib/commerce';
 
 library.add(faArrowLeft);
 

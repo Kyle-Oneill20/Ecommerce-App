@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ProductItem from './ProductItem';
-import commerce from '../lib/commerce';
+import commerce from './lib/commerce';
 
 class ProductsList extends Component {
 

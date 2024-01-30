@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import commerce from './lib/commerce';
-//import './styles/scss/styles.scss'
+import commerce from './Components/lib/commerce';
+import './Styles/App.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faShoppingBag, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { Switch, Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
-//import Hero from './components/Hero';
+import Hero from './Components/Hero';
 import ProductsList from './Components/ProductList';
 import Cart from './Components/Cart';
 import Checkout from './pages/Checkout';
@@ -207,7 +207,7 @@ class App extends Component {
             </button>
           ) : (
             <button className="nav__cart-close">
-              <FontAwesomeIcon size="1x" icon="times" color="#292B83" />
+              <FontAwesomeIcon size="2x" icon="times" color="white" />
             </button>
           )}
         </div>
@@ -223,7 +223,7 @@ class App extends Component {
       isCartVisible,
       order
     } = this.state;
-
+    
     return (
       <div className="app">
         <Switch>
@@ -233,6 +233,9 @@ class App extends Component {
             render={(props) => {
               return (
                 <>
+                  <Hero
+                    merchant={merchant}
+                  />
                   {this.renderCartNav()}
                   {isCartVisible &&
                     <Cart

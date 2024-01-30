@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { stripHtml } from 'string-strip-html';
 import PropTypes from 'prop-types';
-import commerce from "../lib/commerce";
+import commerce from "./lib/commerce";
 
 const ProductItem = ({ product, onAddToCart }) => {
 
