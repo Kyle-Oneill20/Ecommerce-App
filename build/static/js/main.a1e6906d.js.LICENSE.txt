@@ -1,0 +1,79 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/**
+ * @name ranges-merge
+ * @fileoverview Merge and sort string index ranges
+ * @version 9.0.14
+ * @author Roy Revelt, Codsen Ltd
+ * @license MIT
+ * {@link https://codsen.com/os/ranges-merge/}
+ */
+
+/**
+ * @name ranges-push
+ * @fileoverview Gather string index ranges
+ * @version 7.0.14
+ * @author Roy Revelt, Codsen Ltd
+ * @license MIT
+ * {@link https://codsen.com/os/ranges-push/}
+ */
+
+/**
+ * @name string-strip-html
+ * @fileoverview Strip HTML tags from strings. No parser, accepts mixed sources.
+ * @version 13.4.5
+ * @author Roy Revelt, Codsen Ltd
+ * @license MIT
+ * {@link https://codsen.com/os/string-strip-html/}
+ */
+
+/** @license React v0.20.2
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
