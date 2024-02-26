@@ -1,24 +1,26 @@
 .hero {
     background-image: url("https://cdn.chec.io/merchants/55563/assets/KcT5EpKJ7VQnlFt3|Vet_Supply_.png");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: 100%;
     display: flex;
-    align-self: center;
-    position:relative;
-    height: 70rem;
+    flex-direction: column;
+    align-self: flex-end;
+    position: relative;
+    height: 800px;
+    
 
-    img {
-        padding: 5px 5px;
-        cursor: pointer;
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
     }
 
     &__text {
         color: $text-primary;
-        position: relative;
-        top: 60%;
-        left: 50%;
-        transform: translateX(-50%);
-        text-align: left;
+        position:relative;
+        align-content: center ;
+        
 
 
         h1 {
@@ -26,12 +28,12 @@
             font-weight: bold;
             font-size: 60px;
             align-self: center;
-
+            margin-top: 50%;
         }
     }
 
     .btn {
-        display: flex;
+        justify-self: center;
         text-align: center;
         background: $color-accent;
         padding: 10px;
